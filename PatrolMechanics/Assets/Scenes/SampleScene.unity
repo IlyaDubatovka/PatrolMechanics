@@ -225,7 +225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1274698904}
   - component: {fileID: 1274698903}
-  - component: {fileID: 1274698902}
   - component: {fileID: 1274698905}
   m_Layer: 0
   m_Name: Circle
@@ -234,18 +233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1274698902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274698901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517f2f8908bca7e4f92b7e09bef1a618, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1274698903
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -325,8 +312,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b28a73fa808157d4e9f79c99be89e667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _points: []
-  _speed: 0
+  _points:
+  - {x: 5, y: 5, z: 0}
+  - {x: -5, y: -9, z: 0}
+  - {x: -11, y: 6, z: 0}
+  - {x: 11, y: -7, z: 0}
+  _speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
